@@ -1,0 +1,55 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# MLflow runs (can be large)
+mlruns/
+mlartifacts/
+
+# Saved models (large binary files)
+*.joblib
+*.pkl
+*.pickle
+
+# Numpy arrays
+*.npy
+*.npz
+
+# Data files (optional - keep if small)
+# *.csv
+# *.json
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Environment variables (sensitive info)
+.env
+*.env
+
+# Pytest cache
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

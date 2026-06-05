@@ -1,0 +1,53 @@
+{
+  "feature_cols": [
+    "NumInvoices",
+    "RecencyDays",
+    "RecencyScore",
+    "Country_grouped_Canada",
+    "Country_grouped_France",
+    "Country_grouped_Germany",
+    "Country_grouped_Other",
+    "Country_grouped_USA",
+    "FavoriteGenre_Metal",
+    "FavoriteGenre_Rock",
+    "SupportRepId_4",
+    "SupportRepId_5"
+  ],
+  "target_col": "TotalSpent_log",
+  "n_features": 12,
+  "n_observations": 59,
+  "numeric_cols": [
+    "NumInvoices",
+    "RecencyDays",
+    "RecencyScore"
+  ],
+  "ohe_cols": [
+    "Country_grouped_Canada",
+    "Country_grouped_France",
+    "Country_grouped_Germany",
+    "Country_grouped_Other",
+    "Country_grouped_USA",
+    "FavoriteGenre_Metal",
+    "FavoriteGenre_Rock",
+    "SupportRepId_4",
+    "SupportRepId_5"
+  ],
+  "dropped_features": {
+    "leakage": [
+      "AvgInvoiceValue",
+      "SpendPerInvoice"
+    ],
+    "zero_variance": [
+      "IsHighFrequency"
+    ],
+    "weak_signal": [
+      "TenureDays",
+      "NumTracks"
+    ],
+    "identifiers": [
+      "CustomerId",
+      "FirstName",
+      "LastName"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "production_model": "Ridge",
+  "production_params": {
+    "alpha": 1000
+  },
+  "decision_reason": [
+    "Ridge tied XGBoost on MAE ($0.01 difference)",
+    "Ridge has better CV RMSE ($3.01 vs $3.04)",
+    "Ridge simpler and more interpretable",
+    "Switch to XGBoost when dataset > 500 rows"
+  ],
+  "tuned_models": {
+    "Ridge": {
+      "best_params": {
+        "alpha": 1000
+      },
+      "cv_rmse": 17.193751455440598,
+      "test_mae": 14.191768806823593,
+      "test_rmse": 17.928316468578828,
+      "test_r2": -0.014116671796345015,
+      "improvement": -0.24676151709804017
+    },
+    "XGBoost": {
+      "best_params": {
+        "subsample": 0.6,
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.01,
+        "n_estimators": 50,
+        "max_depth": 2,
+        "learning_rate": 0.01,
+        "colsample_bytree": 0.7
+      },
+      "cv_rmse": 17.18020186200164,
+      "test_mae": 14.183246181869507,
+      "test_rmse": 17.920711088811792,
+      "test_r2": -0.013256456447344522,
+      "improvement": 0.22403418693542498
+    },
+    "RandomForest": {
+      "best_params": {
+        "max_depth": 2,
+        "max_features": "sqrt",
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "n_estimators": 50
+      },
+      "cv_rmse": 17.179809610373137,
+      "test_mae": 14.121500580412146,
+      "test_rmse": 17.86148354482626,
+      "test_r2": -0.006569944873827893,
+      "improvement": 1.1064959195878554
+    }
+  }
+}

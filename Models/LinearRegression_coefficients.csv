@@ -1,0 +1,35 @@
+Feature,Coefficient
+RecencyDays,1.4577374023882341
+RecencyScore,-1.6056064138115982
+Country_grouped_Belgium,-11.013280741965337
+Country_grouped_Brazil,-10.193783454823542
+Country_grouped_Canada,-7.313589043716823
+Country_grouped_Chile,-9.207551233639213
+Country_grouped_Czech Republic,-6.012187919020095
+Country_grouped_Denmark,-13.30863713577266
+Country_grouped_Finland,-12.213939746556873
+Country_grouped_France,-6.9661313077054015
+Country_grouped_Germany,-6.915634362066623
+Country_grouped_Hungary,-7.571682030318629
+Country_grouped_India,-7.544015359541164
+Country_grouped_Ireland,-14.316040053132395
+Country_grouped_Italy,-1.8003663970494015
+Country_grouped_Netherlands,-2.920109891046443
+Country_grouped_Norway,-8.576515627108435
+Country_grouped_Other,-7.85669584758418
+Country_grouped_Portugal,-10.234788658155633
+Country_grouped_USA,-9.498108327529277
+Country_grouped_United Kingdom,-9.052839983030776
+FavoriteGenre_Blues,0.32008299351309133
+FavoriteGenre_Classical,4.702074578525438
+FavoriteGenre_Easy Listening,7.232389897666648
+FavoriteGenre_Hip Hop/Rap,-2.866505674576703
+FavoriteGenre_Jazz,4.331715626689404
+FavoriteGenre_Latin,-2.3921597104989587
+FavoriteGenre_Metal,0.6297551600152804
+FavoriteGenre_Pop,-3.359597575650695
+FavoriteGenre_R&B/Soul,8.854568069213965
+FavoriteGenre_Reggae,-3.2541641668984256
+FavoriteGenre_Rock,-0.7646191335335043
+SupportRepId_4,0.7294627596027405
+SupportRepId_5,-0.39084387709671364

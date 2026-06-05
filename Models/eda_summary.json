@@ -1,0 +1,7 @@
+{
+    "customers": 59,
+    "transactions": 2240,
+    "missing_values": 0,
+    "target_skew": 1.805771429539534,
+    "log_target_skew": 1.6785129920598947
+}
